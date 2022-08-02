@@ -148,7 +148,7 @@ section .container{
 }
 #branch .container .content .box{
     width: 60%;
-    height: 80vh;
+    height: 85vh;
     background: rgba(255,255,255,0.5);
     border-radius: 25px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
@@ -171,7 +171,7 @@ section .container{
 }
 
 #branch .container .box img{
-    width: 120px;
+    width: 80px;
 }
 #branch .container .box h1{
     font-size: 1rem;
@@ -180,4 +180,45 @@ section .container{
     text-transform: uppercase;
     letter-spacing: 5px;
     margin-top: 20px;
+}
+#branch .container .box p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.8rem;
+    letter-spacing: 5px;
+    color:#b48c56;
+    margin-top: 60px;
+}
+#branch .container .box button{
+    padding: 10px 15px;
+    border: none;
+    background: rgb(172, 116, 90);
+    color: #f0f8ff;
+    font-family: 'Belleza', sans-serif;
+    font-size: 1.2rem;
+    margin-top: 2px;
+    cursor: pointer;
+    transform: translateY(-40px);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease;
+}
+#branch .container .box:hover button{
+    transform: translate(0);
+    opacity: 1;
+    visibility: visible;
+}
+
+/*    ABOUT    */
+
+#about .container{
+    background: url(img/um\ traço\ azul.png) no-repeat;
+    background-size: 90% 90%; 
+}
+#about .container .title{
+    width: 70%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 400px;
 }
